@@ -55,6 +55,11 @@ plan:
             path: contracts/navigation-channel-nft.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: navigation-data-marketplace
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/navigation-data-marketplace.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: quantum-beacon-management
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/quantum-beacon-management.clar
