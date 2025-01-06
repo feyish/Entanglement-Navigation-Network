@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.navigation-channel-nft]
+path = 'contracts/navigation-channel-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.quantum-beacon-management]
 path = 'contracts/quantum-beacon-management.clar'
 clarity_version = 2
